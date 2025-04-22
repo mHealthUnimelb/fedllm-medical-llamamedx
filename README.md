@@ -9,7 +9,7 @@ which allows users to perform the training on a single GPU.
 
 The fine-tuning results have been submitted as a PEFT adapter and can be accessed here:
 
-- [FlowerTune-Llama-medx_v3.2-Instruct-Medical-PEFT](https://huggingface.co/mrs83/FlowerTune-Qwen2.5-7B-Instruct-Medical-PEFT)
+- [FlowerTune-Llama-medx_v3.2-Instruct-Medical-PEFT](https://drive.google.com/drive/folders/11ck7MMcmERV9M4qxGqbhzadJygM9H6LT?usp=sharing)
 
 ## Methodology
 
