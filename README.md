@@ -42,6 +42,8 @@ When bf16 and tf32 are enabled, model weights are stored in bf16 format, while g
 
 ### Evaluation Results
 
+Hardware: NVIDIA A100 (1x GPU)
+
 - **pubmedqa**: 0.3940
 - **medcaqa**: 0.3634
 - **medqa**: 0.4156
@@ -50,7 +52,7 @@ When bf16 and tf32 are enabled, model weights are stored in bf16 format, while g
 
 ### Communication Budget
 
-37446.40 Megabytes
+19014.79 Megabytes
 
 ## Environments setup
 
@@ -63,7 +65,7 @@ pip install -e .
 ## Experimental setup
 
 The dataset is divided into 20 partitions in an IID fashion, a partition is assigned to each ClientApp.
-We randomly sample a fraction (0.15) of the total nodes to participate in each round, for a total of `100` rounds.
+We randomly sample a fraction (0.15) of the total nodes to participate in each round, for a total of `20` rounds.
 All settings are defined in `pyproject.toml`.
 
 > [!IMPORTANT]
